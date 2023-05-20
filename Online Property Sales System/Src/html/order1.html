@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Property Lanka</title>
+        <link rel="stylesheet" href="order1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>  
+        
+     <div class="top-container">
+         <div id="image1" style="float:left;">
+             <a href="home.html">
+             <img src="1.jpeg" alt="" title="HELLO" class ="logo" width="100" height="100">
+             </a>
+         </div>
+         <div id="image2" style="float:right;">
+             <img src="profile.jfif" alt="" width="100" height="100">
+         </div>
+         <div >
+             <b><center><h1 style= "font-family:verdana">Property Lanka</h1></center></b>
+         </div>
+         
+         <link rel="stylesheet" href="css\style.css">
+     </div>
+     <!--NavBar-->
+     <div class="topnav" id="myHeader">
+      <div style="float:left;">
+         <a href="home.html" >Home</a>
+         <a href="Registration page.html">Registration</a>
+         <a href="Login Page.html" >Login</a>
+         <a href="#User Account">User Account</a>
+         <a href="#Rental">Rental</a>
+         <a href="order1.html"class="active">Order</a>
+         <a href="#Offers">Offers</a>
+         <a href="#Payment">Payment</a>
+         <a href="#Setting">Review</a>
+         <a href="#Contact">Contact</a>
+            <div style="float:right;">
+                <input type="text" placeholder="Search..">
+            </div>
+      </div>
+     </div>
+    
+       <!--Hover dropdown botton -->
+    
+       
+       <div class="dropdown">
+         <button class="dropbtn">Types</button>
+         <div class="dropdown-content">
+           <a href="#">Land</a>
+           <a href="#">House For Sale</a>
+           <a href="#">House Rentals</a>
+           <a href="#">Apartment Rentals</a>
+           <a href="#">Room & Annex Rentals</a>
+           <a href="#">Apartment For Sale</a>
+         </div>
+       </div>
+       <br>
+       
+       <div class="login-card">
+         <u> <center><h2>Order</h2><br></center></u>
+        <form  method="post" action="order.php">
+			Property_Id : <input type="text" name="pid" placeholder="Property Id*"><br><br>   
+			Order_Type : <input type="text" name="otype" placeholder="Order Type*"><br><br>    
+                  
+          <input type="submit" name="login" class="login login-submit" value="Submit">    
+	  
+        </form>
+		</div>
+       
+   
+     <br>
+     <!--footer-->
+     <img src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=100x100" alt="" title="HELLO" width="50" height="50">
+    
+     
+     <div class="footer">
+             <footer class="footer-distributed">
+                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         
+                <div class="footer-right">
+                     <div class="icons"><br>
+              
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-google-plus"></a>
+              
+                 </div>
+                </div>
+              
+                 <div class="footer-left">
+              
+					<p class="footer-links">
+                   
+					<a href="#">Hotline: +94 117 457 767 | +94 770 333 877</a><br>
+              
+                   <a href="#">Head office Location: CityViews(Pvt) Ltd.Tower, Wellawatte, Sri Lanka</a>
+                  </p>
+              
+                  <p>All recerved.Terms of use|Privacy policy</p>
+                 </div>
+              
+             </footer>
+       </div>
+    
+     <script>
+     /*sticky navbar js*/
+     window.onscroll = function() {myFunction()};
+
+     var header = document.getElementById("myHeader");
+     var sticky = header.offsetTop;
+
+     function myFunction() {
+       if (window.pageYOffset > sticky) {
+         header.classList.add("sticky");
+       } else {
+         header.classList.remove("sticky");
+       }
+     }
+     </script>
+     </body>
+     </html>
+
+
+

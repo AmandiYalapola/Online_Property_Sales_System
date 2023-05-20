@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Property Lanka</title>
+        <link rel="stylesheet" href="css\payment.css">
+        <link rel="stylesheet" href="css\style1.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		  body { background-image: url("http://localhost/Src/images/bkn.jpg");
+            background-size: cover;
+            background-repeat:no-repeat;
+            background-position: top;
+            }
+		</style>
+    </head>
+    <body>
+        
+    
+
+        
+     <div class="top-container">
+         <div id="image1" style="float:left;">
+             <a href="home.html">
+             <img src="images\1.jpeg" alt="" title="HOME" class ="logo" width="100" height="100">
+             </a>
+         </div>
+         <div id="image2" style="float:right;">
+             <img src="images\profile.jfif" alt="profile" width="100" height="100">
+         </div>
+         <div >
+             <b><center><h1 style= "font-family:verdana">Property Lanka</h1></center></b>
+         </div>
+         
+         <link rel="stylesheet" href="css\style.css">
+     </div>
+
+     <div class="topnav" id="myHeader">
+      <div style="float:left;">
+         <a href="home.html" >Home</a>
+         <a href="Registration page.html">Registration</a>
+         <a href="Login Page.html" >Login</a>
+         <a href="#User Account">User Account</a>
+         <a href="#Rental">Rental</a>
+         <a href="#Order">Order</a>
+         <a href="#Offers">Offers</a>
+         <a href="Payment.html"class="active">Payment</a>
+         <a href="#Setting">Setting</a>
+         <a href="#Contact">Contact</a>
+         <div style="float:right;">
+         <input type="text" placeholder="Search..">
+         </div>
+     </div>
+    <!--Hover dropdown botton -->
+     </div>
+     <div class="dropdown">
+       <button class="dropbtn">Select</button>
+       <div class="dropdown-content">
+         <a href="#">Land</a>
+         <a href="#">House For Sale</a>
+         <a href="#">House Rentals</a>
+         <a href="#">Apartment Rentals</a>
+         <a href="#">Room & Annex Rentals</a>
+         <a href="#">Apartment For Sale</a>
+       </div>
+     </div>
+     <!---->
+	 <div class="login-card">
+         <u> <center><h2>Confirm Your Payment</h2><br></center></u>
+        <form  method="post" action="payment.php">
+          Cardholdername : <input type="text" name="cname" placeholder="Enter cardholdername*"><br><br>    
+          Cardnumber : <input type="text" name="cno" placeholder="Enter cardholderNumber*"><br><br>   
+          CVN : <input type="text" name="cvn" placeholder="Enter cvn*"><br><br>   		  
+          Date: <input type="text" name="date" placeholder="Enter date(M/Y)*"><br><br>
+		   
+             <div class="cards1">
+                    <img src="images\mc.png" alt="">
+                    <img src="images\vi.png" alt="">
+                    <img src="images\pp.png" alt="">
+                </div>
+          <input type="submit" name="login" class="login login-submit" value="Confirm">
+		  
+		   
+       
+	  
+        </div>
+        </form>
+ </div>
+
+
+    
+     
+     <img src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=100x100" alt="" title="HELLO" width="50" height="50">
+     <hr>
+     <div class="footer">
+             <footer class="footer-distributed">
+                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+         
+                 <div class="footer-right">
+                     <div class="icons"><br>
+              
+                  <a href="#" class="fa fa-facebook"></a>
+                  <a href="#" class="fa fa-twitter"></a>
+                  <a href="#" class="fa fa-instagram"></a>
+                  <a href="#" class="fa fa-google-plus"></a>
+              
+                 </div>
+              </div>
+              
+                 <div class="footer-left">
+              
+                  <p class="footer-links">
+                   
+              <a href="#">Hotline: +94 117 457 767 | +94 770 333 877</a><br>
+              
+                   <a href="#">Apartment Location: CityViews(Pvt) Ltd.Tower, Wellawatte, Sri Lanka</a>
+                  </p>
+				  <br>
+				  <a href='http://play.google.com/store/?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='http://localhost/Src/images/gp.png' width="100" height="50" style="float:right" /></a>
+		          <a href='https://www.apple.com/app-store/'><img alt='Get it on Google Play' src='http://localhost/Src/images/App.jpeg' width="90" height="50" style="float:right" /></a>
+			      <a href='https://www.microsoft.com/en-lk//'><img alt='Get it on Google Play' src='http://localhost/Src/images/Micro.jpeg' width="80" height="50" style="float:right" /></a>
+              
+                  <p>All recerved.Terms of use|Privacy policy</p>
+                 </div>
+              
+             </footer>
+         </div>
+     <script>
+     window.onscroll = function() {myFunction()};
+
+     var header = document.getElementById("myHeader");
+     var sticky = header.offsetTop;
+
+     function myFunction() {
+       if (window.pageYOffset > sticky) {
+         header.classList.add("sticky");
+       } else {
+         header.classList.remove("sticky");
+       }
+     }
+     </script>
+     </body>
+     </html>
+
+
+
+

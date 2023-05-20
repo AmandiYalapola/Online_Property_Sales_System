@@ -1,0 +1,22 @@
+
+form{
+   width: 1500px;
+   margine: auto;
+   padding: 20px;
+   background: #C7D1D1;
+   font-size: 16px;
+   font-family:verdana;
+   color: #6A9193;
+   
+}
+h2{
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+  
+}
+
+hr{
+    width=22%;
+    align=center;
+}
+
